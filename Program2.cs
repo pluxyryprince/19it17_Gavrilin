@@ -3,6 +3,7 @@
 namespace ConsoleApp12
 {
     class Program
+        //метод обмена элементов 
     {
         static void Swap (ref int e1, ref int e2)
            { 
@@ -10,6 +11,7 @@ namespace ConsoleApp12
             e1 = e2;
             e2=temp;
             }
+        //метод сортировки пузырьком
     static int[] BubbleSort(int [] massiv)
         {
             var len = massiv.Length;
